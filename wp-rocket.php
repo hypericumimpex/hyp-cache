@@ -3,7 +3,7 @@
  * Plugin Name: HYP Cache
  * Plugin URI: https://github.com/hypericumimpex/hyp-cache
  * Description: Hypericum Cache Component.
- * Version: 3.2.3
+ * Version: 3.2.4-beta3
  * Code Name: Dagobah
  * Author: Romeo C.
  * Author URI: https://github.com/hypericumimpex/
@@ -18,7 +18,7 @@
 defined( 'ABSPATH' ) || die( 'Cheatin&#8217; uh?' );
 
 // Rocket defines.
-define( 'WP_ROCKET_VERSION',               '3.2.3' );
+define( 'WP_ROCKET_VERSION',               '3.2.4-beta3' );
 define( 'WP_ROCKET_WP_VERSION',            '4.7' );
 define( 'WP_ROCKET_PHP_VERSION',           '5.4' );
 define( 'WP_ROCKET_PRIVATE_KEY'         , 'ef0e6b913bc47aaefa88582615758ea9');

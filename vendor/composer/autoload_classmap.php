@@ -7,7 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Imagify_Partner' => $baseDir . '/inc/vendors/classes/class-imagify-partner.php',
-    'Minify_CSS_UriRewriter' => $baseDir . '/inc/vendors/classes/class-minify-css-urirewriter.php',
     'Minify_HTML' => $baseDir . '/inc/vendors/classes/class-minify-html.php',
     'Rocket_Background_Critical_CSS_Generation' => $baseDir . '/inc/classes/class-rocket-background-critical-css-generation.php',
     'Rocket_Background_Database_Optimization' => $baseDir . '/inc/classes/class-rocket-background-database-optimization.php',

@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitfefcfb8c73f35d43e184a74def4d94ba
+class ComposerStaticInit3396ae23a8dd76861f13321861e31712
 {
     public static $prefixLengthsPsr4 = array (
         'P' => 
@@ -16,10 +16,6 @@ class ComposerStaticInitfefcfb8c73f35d43e184a74def4d94ba
             'Monolog\\' => 8,
             'MatthiasMullie\\PathConverter\\' => 29,
             'MatthiasMullie\\Minify\\' => 22,
-        ),
-        'D' => 
-        array (
-            'Dealerdirect\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\' => 55,
         ),
         'C' => 
         array (
@@ -45,10 +41,6 @@ class ComposerStaticInitfefcfb8c73f35d43e184a74def4d94ba
         array (
             0 => __DIR__ . '/..' . '/matthiasmullie/minify/src',
         ),
-        'Dealerdirect\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/dealerdirect/phpcodesniffer-composer-installer/src',
-        ),
         'Composer\\Installers\\' => 
         array (
             0 => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers',
@@ -61,7 +53,6 @@ class ComposerStaticInitfefcfb8c73f35d43e184a74def4d94ba
 
     public static $classMap = array (
         'Imagify_Partner' => __DIR__ . '/../..' . '/inc/vendors/classes/class-imagify-partner.php',
-        'Minify_CSS_UriRewriter' => __DIR__ . '/../..' . '/inc/vendors/classes/class-minify-css-urirewriter.php',
         'Minify_HTML' => __DIR__ . '/../..' . '/inc/vendors/classes/class-minify-html.php',
         'Rocket_Background_Critical_CSS_Generation' => __DIR__ . '/../..' . '/inc/classes/class-rocket-background-critical-css-generation.php',
         'Rocket_Background_Database_Optimization' => __DIR__ . '/../..' . '/inc/classes/class-rocket-background-database-optimization.php',
@@ -139,9 +130,9 @@ class ComposerStaticInitfefcfb8c73f35d43e184a74def4d94ba
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitfefcfb8c73f35d43e184a74def4d94ba::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitfefcfb8c73f35d43e184a74def4d94ba::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitfefcfb8c73f35d43e184a74def4d94ba::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit3396ae23a8dd76861f13321861e31712::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit3396ae23a8dd76861f13321861e31712::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit3396ae23a8dd76861f13321861e31712::$classMap;
 
         }, null, ClassLoader::class);
     }
