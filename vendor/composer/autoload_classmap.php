@@ -30,6 +30,7 @@ return array(
     'WP_Rocket\\Busting\\Busting_Factory' => $baseDir . '/inc/classes/busting/class-busting-factory.php',
     'WP_Rocket\\Busting\\Facebook_Pickles' => $baseDir . '/inc/classes/busting/class-facebook-pickles.php',
     'WP_Rocket\\Busting\\Facebook_SDK' => $baseDir . '/inc/classes/busting/class-facebook-sdk.php',
+    'WP_Rocket\\Busting\\File_Busting' => $baseDir . '/inc/classes/busting/trait-file-busting.php',
     'WP_Rocket\\Busting\\Google_Analytics' => $baseDir . '/inc/classes/busting/class-google-analytics.php',
     'WP_Rocket\\Busting\\Google_Tag_Manager' => $baseDir . '/inc/classes/busting/class-google-tag-manager.php',
     'WP_Rocket\\Event_Management\\Event_Manager' => $baseDir . '/inc/classes/event-management/class-event-manager.php',

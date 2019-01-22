@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit3396ae23a8dd76861f13321861e31712
+class ComposerStaticInit1e1a888fc0b6e5d7511fad10cc0e5f73
 {
     public static $prefixLengthsPsr4 = array (
         'P' => 
@@ -76,6 +76,7 @@ class ComposerStaticInit3396ae23a8dd76861f13321861e31712
         'WP_Rocket\\Busting\\Busting_Factory' => __DIR__ . '/../..' . '/inc/classes/busting/class-busting-factory.php',
         'WP_Rocket\\Busting\\Facebook_Pickles' => __DIR__ . '/../..' . '/inc/classes/busting/class-facebook-pickles.php',
         'WP_Rocket\\Busting\\Facebook_SDK' => __DIR__ . '/../..' . '/inc/classes/busting/class-facebook-sdk.php',
+        'WP_Rocket\\Busting\\File_Busting' => __DIR__ . '/../..' . '/inc/classes/busting/trait-file-busting.php',
         'WP_Rocket\\Busting\\Google_Analytics' => __DIR__ . '/../..' . '/inc/classes/busting/class-google-analytics.php',
         'WP_Rocket\\Busting\\Google_Tag_Manager' => __DIR__ . '/../..' . '/inc/classes/busting/class-google-tag-manager.php',
         'WP_Rocket\\Event_Management\\Event_Manager' => __DIR__ . '/../..' . '/inc/classes/event-management/class-event-manager.php',
@@ -130,9 +131,9 @@ class ComposerStaticInit3396ae23a8dd76861f13321861e31712
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit3396ae23a8dd76861f13321861e31712::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit3396ae23a8dd76861f13321861e31712::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit3396ae23a8dd76861f13321861e31712::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit1e1a888fc0b6e5d7511fad10cc0e5f73::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit1e1a888fc0b6e5d7511fad10cc0e5f73::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit1e1a888fc0b6e5d7511fad10cc0e5f73::$classMap;
 
         }, null, ClassLoader::class);
     }
